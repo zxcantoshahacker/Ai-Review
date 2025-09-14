@@ -33,42 +33,25 @@ Write the review using the six headings—exactly these and only these:
    - If evidence is missing, state: "No direct evidence found in the manuscript."
 
 3) Strengths
-   - Generate AS MANY substantiated items as the manuscript supports (≥3 encouraged; more is better).
+   - Generate AS MANY items as the manuscript supports (≥3 encouraged; more is better).
    - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
-   - For each item, include sub-point examples that belong to the item. Each sub-point example should include the following:
-     **<One-line title summarizing the strength>** (anchor[s] at the end)
-     - Evidence: Figure/Table/Section/Page references supporting this strength.
-     - Why it matters: novelty/technical soundness/experimental rigor/clarity/impact (choose what applies).
-     - Scope & applicability: datasets, models, settings where this strength clearly holds.
-     - Optional: comparison to closest prior work (only if those works appear in the manuscript’s references).
-     - Evidence anchor(s): e.g., "Fig. 1; Sec. 3; Tbl. 3 (Cora-20)".
+   - For each item, include sub-point examples (≥3 encouraged; more is better) that belong to the item.
+   - Each sub-point example should include evidence (Figure/Table/Section/Page references supporting this strength) and why it matters (novelty/technical soundness/experimental rigor/clarity/impact).
 
 4) Weaknesses
-   - Generate AS MANY substantiated items as the manuscript supports (≥3 encouraged; more is better).
+   - Generate AS MANY items as the manuscript supports (≥3 encouraged; more is better).
    - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
-   - For each item, include sub-point examples that belong to the item. Each sub-point example should include the following:
-     **<One-line title summarizing the weakness>** (anchor[s] at the end)
-     - Evidence or gap: concrete pointers; if absent, write: "No direct evidence found in the manuscript."
-     - Impact/risks: what could go wrong (e.g., validity, scope, reproducibility, fairness, generalization).
-     - Scope/limitations: where the issue is most likely to appear (datasets, metrics, ablations, settings).
-     - Reproducibility checks (if relevant): code/seeds/splits/hyperparameters/reporting (mean±std/CI), etc.
-     - Evidence anchor(s): e.g., "Sec. 4.2 Ablations; Tbl. 2; Appx. B; p. 12".
+   - For each item, include sub-point examples (≥3 encouraged; more is better) that belong to the item.
+   - Each sub-point example should include evidence (Figure/Table/Section/Page references supporting this strength) and why it matters (novelty/technical soundness/experimental rigor/clarity/impact).
 
 5) Suggestions for Improvement
-   - Provide concrete, actionable, and verifiable recommendations; generate AS MANY as warranted (≥3 encouraged).
+   - Provide concrete, actionable, and verifiable recommendations; the number of recommendations should be the same as the number of Weaknesses, and they should correspond one to one.
    - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
-   - For each item, include sub-point examples that belong to the item. Each sub-point example should include the following:
-     **<Actionable recommendation title>**
-     - Addresses: reference the related weakness by QUOTING its title (e.g., "Addresses: 'Limited ablations for τ'").
-     - Action: the precise change/experiment/analysis (e.g., add ablation on τ; unify tuning budgets across baselines).
-     - Verification protocol: datasets/splits, metrics (ECE, Brier, NLL, accuracy), report format (mean±std/CI, seeds).
-     - Acceptance criteria: what result or observation would address the concern.
-     - Expected outcome & risk: what you expect to learn; possible failure modes.
-     - Evidence anchor(s) motivating this suggestion: sections/figures/tables/pages.
+   - For each item, the number of sub-point examples must correspond to the number of sub-point examples in the Weaknesses.
 
 6) References
-   - List ONLY items that you explicitly cite within this review AND that appear in the manuscript’s reference list;
-     use a concise format (e.g., "[Author et al., Year]" or the manuscript’s numbering style).
+   - List ONLY items that you explicitly cite within this review AND that appear in the manuscript’s reference list.
+   - Use the following format for citations in the comments above:  [Author et al., Year].
    - If nothing is cited or the manuscript’s reference list is unavailable, write "None".
 
 [Style & Length]
