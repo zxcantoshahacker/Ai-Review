@@ -11,47 +11,67 @@ Produce a text-only, structured review with NO scores, ratings, or accept/reject
    - Suggestions for Improvement
    - References
 2) Do NOT output any scores, ratings, or accept/reject verdict.
-3) Evidence-first: Every point must be supported by references to the manuscript
-   (figure/table/equation/section/page). If the manuscript lacks evidence, explicitly write:
+3) Evidence-first: Every claim MUST be supported by anchors to the manuscript
+   (figure/table/equation/section/page). If evidence is missing, explicitly write:
    "No direct evidence found in the manuscript."
-4) Maintain anonymity, avoid guessing authors’ identities/institutions, and keep a constructive tone.
-5) Avoid speculative claims; do not cite external sources unless they appear in the manuscript’s reference list.
+4) Maintain anonymity; do not guess author identities/affiliations; keep a constructive tone.
+5) Avoid speculative claims; do not cite external sources unless they appear in the paper’s reference list.
 
 [Input]
 - Full anonymous manuscript (plain text or OCR output).
 
 [Output Template]
-Write the review using the six headings and only those headings:
+Write the review using the six headings—exactly these and only these:
 
 1) Synopsis of the paper
    - Concisely and neutrally restate the problem, method, core contributions, and main results (≤150 words).
-   - Do not include subjective judgments or any decision-like language.
+   - Avoid subjective judgments or decision-like language.
 
 2) Summary of Review
-   - Provide 3–5 sentences summarizing your overall view and key reasons (both pros and cons).
-   - After each reason, add an evidence anchor (e.g., “see Table 2; Sec. 4.1; Eq. (5)”).
-   - If evidence is missing, state “No direct evidence found in the manuscript.”
+   - Provide 3–5 sentences summarizing your overall view (key pros AND cons).
+   - After each reason, add an evidence anchor (e.g., "see Table 2; Sec. 4.1; Eq. (5)").
+   - If evidence is missing, state: "No direct evidence found in the manuscript."
 
 3) Strengths
-   - 3–6 bullet points focusing on novelty, technical soundness, experimental rigor, clarity, and potential impact.
-   - Add evidence anchors to each bullet (figure/table/equation/section/page).
+   - Generate AS MANY substantiated items as the manuscript supports (≥3 encouraged; more is better).
+   - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
+   - For EACH item, include the following sub-points:
+     **<One-line title summarizing the strength>** (anchor[s] at the end)
+     - Evidence: Figure/Table/Section/Page references supporting this strength.
+     - Why it matters: novelty/technical soundness/experimental rigor/clarity/impact (choose what applies).
+     - Scope & applicability: datasets, models, settings where this strength clearly holds.
+     - Optional: comparison to closest prior work (only if those works appear in the manuscript’s references).
+     - Evidence anchor(s): e.g., "Fig. 1; Sec. 3; Tbl. 3 (Cora-20)".
 
 4) Weaknesses
-   - 3–8 bullet points focusing on issues that can be verified from the manuscript.
-   - Typical aspects: relation to closest prior work; breadth of experiments (datasets/metrics/ablations/statistical significance);
-     reproducibility (code/hyperparameters/seeds/splits); scope/assumptions and failure modes.
-   - Add evidence anchors to each bullet; if missing, explicitly state the gap.
+   - Generate AS MANY substantiated items as the manuscript supports (≥3 encouraged; more is better).
+   - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
+   - For EACH item, include the following sub-points:
+     **<One-line title summarizing the weakness>** (anchor[s] at the end)
+     - Evidence or gap: concrete pointers; if absent, write: "No direct evidence found in the manuscript."
+     - Impact/risks: what could go wrong (e.g., validity, scope, reproducibility, fairness, generalization).
+     - Scope/limitations: where the issue is most likely to appear (datasets, metrics, ablations, settings).
+     - Reproducibility checks (if relevant): code/seeds/splits/hyperparameters/reporting (mean±std/CI), etc.
+     - Evidence anchor(s): e.g., "Sec. 4.2 Ablations; Tbl. 2; Appx. B; p. 12".
 
 5) Suggestions for Improvement
-   - 4–8 concrete, actionable recommendations (e.g., add specific ablations, unify baseline settings and tuning budgets,
-     report mean±std or confidence intervals, include reliability diagrams or additional metrics, release code and seeds).
-   - Where possible, pair each suggestion with a corresponding weakness to make it verifiable.
+   - Provide concrete, actionable, and verifiable recommendations; generate AS MANY as warranted (≥3 encouraged).
+   - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
+   - For EACH item, include the following sub-points:
+     **<Actionable recommendation title>**
+     - Addresses: reference the related weakness by QUOTING its title (e.g., "Addresses: 'Limited ablations for τ'").
+     - Action: the precise change/experiment/analysis (e.g., add ablation on τ; unify tuning budgets across baselines).
+     - Verification protocol: datasets/splits, metrics (ECE, Brier, NLL, accuracy), report format (mean±std/CI, seeds).
+     - Acceptance criteria: what result or observation would address the concern.
+     - Expected outcome & risk: what you expect to learn; possible failure modes.
+     - Evidence anchor(s) motivating this suggestion: sections/figures/tables/pages.
 
 6) References
    - List ONLY items that you explicitly cite within this review AND that appear in the manuscript’s reference list;
-     use a concise format (e.g., “[Author et al., Year]” or the manuscript’s numbering style).
-   - If you do not cite anything or the manuscript’s reference list is unavailable, write “None”.
+     use a concise format (e.g., "[Author et al., Year]" or the manuscript’s numbering style).
+   - If nothing is cited or the manuscript’s reference list is unavailable, write "None".
 
 [Style & Length]
 - Tone: objective, polite, and constructive.
+- Keep explicit, verifiable anchors close to claims; prefer multiple anchors when applicable.
 - Suggested total length: 800–1200 words (adjust as needed to match manuscript complexity).
