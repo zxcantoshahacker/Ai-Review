@@ -35,7 +35,7 @@ Write the review using the six headings—exactly these and only these:
 3) Strengths
    - Generate AS MANY substantiated items as the manuscript supports (≥3 encouraged; more is better).
    - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
-   - For EACH item, include the following sub-points:
+   - For each item, include sub-point examples that belong to the item. Each sub-point example should include the following:
      **<One-line title summarizing the strength>** (anchor[s] at the end)
      - Evidence: Figure/Table/Section/Page references supporting this strength.
      - Why it matters: novelty/technical soundness/experimental rigor/clarity/impact (choose what applies).
@@ -46,7 +46,7 @@ Write the review using the six headings—exactly these and only these:
 4) Weaknesses
    - Generate AS MANY substantiated items as the manuscript supports (≥3 encouraged; more is better).
    - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
-   - For EACH item, include the following sub-points:
+   - For each item, include sub-point examples that belong to the item. Each sub-point example should include the following:
      **<One-line title summarizing the weakness>** (anchor[s] at the end)
      - Evidence or gap: concrete pointers; if absent, write: "No direct evidence found in the manuscript."
      - Impact/risks: what could go wrong (e.g., validity, scope, reproducibility, fairness, generalization).
@@ -57,7 +57,7 @@ Write the review using the six headings—exactly these and only these:
 5) Suggestions for Improvement
    - Provide concrete, actionable, and verifiable recommendations; generate AS MANY as warranted (≥3 encouraged).
    - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
-   - For EACH item, include the following sub-points:
+   - For each item, include sub-point examples that belong to the item. Each sub-point example should include the following:
      **<Actionable recommendation title>**
      - Addresses: reference the related weakness by QUOTING its title (e.g., "Addresses: 'Limited ablations for τ'").
      - Action: the precise change/experiment/analysis (e.g., add ablation on τ; unify tuning budgets across baselines).
