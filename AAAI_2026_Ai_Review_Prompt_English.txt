@@ -40,6 +40,7 @@ Write the review using the six headings—exactly these and only these:
 
 4) Weaknesses
    - Generate AS MANY items as the manuscript supports (≥3 encouraged; more is better).
+   - Include one item that evaluates the correctness, clarity, or consistency of mathematical formulations (e.g., equations, notation, derivations).
    - Use UNNUMBERED bullet items with concise BOLDED titles (no numbering).
    - For each item, include sub-point examples (≥3 encouraged; more is better) that belong to the item.
    - Each sub-point example should include evidence (Figure/Table/Section/Page references supporting this strength) and why it matters (novelty/technical soundness/experimental rigor/clarity/impact).
