@@ -1,5 +1,5 @@
 # About Ai-Review-Prompt
-This repository specializes in using AI to optimize papers.  
+This repository specializes in using AI to optimize papers. Click [here](https://neurodong.github.io/Ai-Review-Prompt/) for a quick usage.
 
 # Continuous Update
 This repository will be updated continuously for a long time. Welcome to use this repository, raise issues, and push requests to help optimize this template to help better community members' papers get accepted.
