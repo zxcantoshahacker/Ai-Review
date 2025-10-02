@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Paper Review Assistant (Frontend)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ai Review</h1>
+
+    <div class="card">
+      <label>OpenRouter API Key (never stored)</label>
+      <input id="apiKey" type="password" placeholder="sk-..." />
+
+      <label>Model (e.g. deepseek/deepseek-chat-v3.1:free, click <a href="https://openrouter.ai/models">here</a> for more models)</label>
+      <input id="model" type="text" placeholder="gpt-4o-mini" />
+
+      <label>Upload PDF (max 10MB)</label>
+      <input id="pdfFile" type="file" accept="application/pdf" />
+      <div id="fileHint" class="hint"></div>
+
+      <label>Interface language / prompt selection</label>
+      <select id="lang">
+        <option value="en">English</option>
+        <option value="zh">Chinese</option>
+      </select>
+
+      <button id="submitBtn">Send to model</button>
+    </div>
+
+    <div class="card">
+      <h2>Model Response</h2>
+      <div id="status" class="status">Waiting for user action</div>
+      <div id="modelNotice" style="font-size:13px; color:#555; margin-top:6px; display:none;">Large model is processing<span id="modelDots">.</span></div>
+      <pre id="response" class="response"></pre>
+      <div class="response-actions">
+        <button id="exportPdfBtn" disabled>Export response as Markdown file</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Note: API Key and PDF are processed only in the browser; the page will not store your API Key on any server or disk.</p>
+    </footer>
+  </div>
+
+  <!-- pdf.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.8.162/pdf.min.js"></script>
+  <!-- html2pdf removed - exporting as Markdown now -->
+  <script src="app.js"></script>
+</body>
+</html>
